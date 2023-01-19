@@ -79,7 +79,7 @@ include('./db/dbConnect.php')
             cursor: pointer;
         }
     </style>
-    <script type='text/javascript'>
+    <!-- <script type='text/javascript'>
         $(function () {
             var overlay = $('<div id="overlay"></div>');
             overlay.show();
@@ -96,8 +96,8 @@ include('./db/dbConnect.php')
                 return false;
             });
         });
-    </script>
-    <div class='popup'>
+    </script> -->
+    <!-- <div class='popup'>
         <div class='cnt223'>
             <h1 align="center">Важное уведомление!</h1>
             <p align="center">
@@ -107,7 +107,7 @@ include('./db/dbConnect.php')
                 <a href='' class='close' align="center">Ок</a>
             </p>
         </div>
-    </div>
+    </div> -->
 </head>
 
 <body id="top">
@@ -125,48 +125,27 @@ include('./db/dbConnect.php')
     <div class="wrapper row3">
         <main class="container clear">
             <div class="content">
-                <div id="gallery">
-                    <figure>
-                        <header class="heading" align="center">НОВОСТИ ПОРТАЛА</header>
-                        <ul align="center" class="nospace clear">
-                                <li class="one_third first"><a href="#"><img
-                                        src="../images/demo/gallery/podbor_oborudovaniya_na_sayt_1x.jpg" alt=""></a>
-                            </li>
-                            <li class="one_third"><a href="#"><img
-                                        src="../images/demo/gallery/dlya_sayta_ekomeken_1x.jpg" alt=""></a></li>
-                            <li class="one_third"><a href="#"><img src="../images/demo/gallery/dlya_sayta_podbor_1x.jpg"
-                                        alt=""></a></li> 
-                        </ul>
-                    </figure>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </main>
-    </div>
-
-    <div class="wrapper row3">
-        <main class="container clear">
-            <div class="content">
                 <!-- ################################################################################################ -->
                 <div id="gallery">
                     <figure>
-                        <header class="heading" align="center">НАШИ ПАРТНЕРЫ</header>
+                        <header class="heading" align="center">НОВОСТИ
+                        </header>
                         <ul align="center" class="nospace clear">
-                            <li class="one_third first"><a href="https://centereco.kz/"><img
-                                        src="../images/demo/gallery/pavlodaro_1x.png" alt=""></a></li>
-                            <li class="one_third"><a href="https://qso.kz"><img src="../images/demo/gallery/qso3.png"
-                                        alt=""></a></li>
-                            <li class="one_third"><a href="https://ecolomist.kz/"><img
-                                        src="../images/demo/gallery/ecolomist_1x.png" alt=""></a></li>
-                        </ul>
-                        <ul align="center" class="nospace clear">
-                            <li class="one_third first"><a href="https://ca-ace.org"><img
-                                        src="../images/demo/gallery/logo.jpg" alt=""></a></li>
-                            <li class="one_third"><a href="https://eabw.org/"><img
-                                        src="../images/demo/gallery/logo_EABW_2x_1x.jpeg" alt=""></a>
+                            <li class="one_quarter first"><a href="demonews.php"><img
+                                        src="../images/demo/gallery/01.png" alt=""></a>
+                                <p><a href="demonews.php">название новости 1</a></p>
                             </li>
-                            <li class="one_third"><a href="https://ipm2.bitrix24.site/"><img
-                                        src="../images/demo/gallery/logo_1x.png" alt=""></a>
+                            <li class="one_quarter"><a href="demonews.php"><img
+                                        src="../images/demo/gallery/01.png" alt=""></a>
+                                <p><a href="demonews.php">название новости 2</a></p>
+                            </li>
+                            <li class="one_quarter"><a href="demonews.php"><img
+                                        src="../images/demo/gallery/01.png" alt=""></a>
+                                <p><a href="demonews.php">название новости 3</a></p>
+                            </li>
+                            <li class="one_quarter"><a href="demonews.php"><img
+                                        src="../images/demo/gallery/01.png" alt=""></a>
+                                <p><a href="demonews.php">название новости 4</a></p>
                             </li>
                         </ul>
                     </figure>
@@ -176,6 +155,45 @@ include('./db/dbConnect.php')
             <div class="clear"></div>
         </main>
     </div>
+    <div class="wrapper row3">
+        <main class="container clear">
+            <div class="content">
+                <!-- ################################################################################################ -->
+                <div id="gallery">
+                    <figure>
+                        <header class="heading" align="center">НАШИ ПАРТНЕРЫ</header>
+                        <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+			<a href="https://ecolomist.kz/"><img src="../images/demo/gallery/ecolomist_1x.png" height="100" width="250" alt="" /></a>
+		</div>
+        <div class="slide">
+            <a href="https://consumer.huawei.com/kz/"><img src="../images/demo/gallery/huawei.jpg" height="100" width="250" alt="" /></a>
+		</div>
+        <div class="slide">
+			<a href="https://www.dahuasecurity.com/ru/"><img src="../images/demo/gallery/dahua.png" height="100" width="250" alt="" /></a>
+		</div>
+		<div class="slide">
+            <a href="https://www.hp.com/kz-ru/home.html"><img src="../images/demo/gallery/hp.png" height="100" width="250" alt="" /></a>
+		</div>
+        <div class="slide">
+			<a href="http://www.stn.kz/"><img src="../images/demo/gallery/stn-logo.png" height="100" width="250" alt="" /></a>
+		</div>
+        <div class="slide">
+			<a href="https://www.bitrix24.kz/"><img src="../images/demo/gallery/b24.jpg" height="100" width="250" alt="" /></a>
+		</div><div class="slide">
+			<a href="https://eabw.org/"><img src="../images/demo/gallery/logo_EABW_2x_1x.jpeg" height="100" width="250" alt="" /></a>
+		</div>
+    </div>
+                    </figure>
+                </div>
+            </div>
+            <!-- main body -->
+            <div class="clear"></div>
+        </main>
+    </div>
+
+   
 
     <div class="wrapper row3">
         <main class="container clear">
@@ -188,11 +206,15 @@ include('./db/dbConnect.php')
                         <ul align="center" class="nospace clear">
                             <li class="one_third first"><a href="#"><img
                                         src="../images/demo/gallery/podbor_oborudovaniya_na_sayt_1x.jpg" alt=""></a>
+                                        <p><a href="#">Подбор и поставка оборудования</a></p>
                             </li>
                             <li class="one_third"><a href="#"><img
-                                        src="../images/demo/gallery/dlya_sayta_ekomeken_1x.jpg" alt=""></a></li>
+                                        src="../images/demo/gallery/dlya_sayta_ekomeken_1x.jpg" alt=""></a>
+                                        <p><a href="#">Трансфер технологий</a></p>
+                                    </li>
                             <li class="one_third"><a href="#"><img src="../images/demo/gallery/dlya_sayta_podbor_1x.jpg"
-                                        alt=""></a></li>
+                                        alt=""></a>
+                                        <p><a href="#">Поиск деловых партнеров в Германии</a></p></li>
                         </ul>
                     </figure>
                 </div>

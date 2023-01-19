@@ -16,6 +16,7 @@
                     <li><a href="esg-cons-ru.php">ESG-консалтинг</a></li>
                 </ul></li>
                 <li><a href="contacts-ru.php">Контакты</a></li>
+                <li><a href="https://www.elektronik.kz">Интернет-магазин ELEKTRONIK.KZ</a></li>
             </ul>
         </nav>
     </header>
@@ -48,7 +49,7 @@
                 <li class="one_quarter">
                     <article class="overlay"><a href="prem-ru.php"><i class="fa fa-archive"></i></a>
                         <h6 class="heading" align = "center">Международные стажировки и деловые поездки</h6>
-                        <p align = "justify">lorem ipsum&hellip;</p>
+                        <p align = "justify">Центр передового опыта ECOMEKEN предлагает своим клиентам инновационные обучающие курсы с выдачей международных сертификатов</p>
                         <footer><a href="prem-ru.php">Читать далее &raquo;</a></footer>
                     </article>
                 </li>
